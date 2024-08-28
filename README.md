@@ -26,7 +26,7 @@ User details and pseudocode submissions are securely stored in MongoDB for easy 
 🤝 Contributing
 We welcome contributions! Please feel free to submit a Pull Request.
 📬 Contact
-For any queries, please open an issue or contact our team at email@example.com.
+For any queries, please open an issue or contact our team.
 📜 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 Happy Coding! 💻🎉
