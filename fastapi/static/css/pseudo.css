@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, #e0f7fa, #b2ebf2, #81d4fa, #4fc3f7);
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* font-family:"0"; */
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically in the center */
+  margin-bottom: 20px;
+}
+
+.previous-button, .next-button {
+  background-color: #44a2f0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.previous-button:hover, .next-button:hover {
+  background-color: #44a2f0;
+}
+
+.save-button, .submit-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.save-button{
+  margin-top: 10px;
+}
+.save-button:hover, .submit-button:hover {
+  background-color: #3e8e41;
+}
+
+.submit-button {
+  margin-top: -5%;
+  margin-left: auto;
+}
+
+.question-number {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.question-text {
+  margin-bottom: 20px;
+}
+
+.pseudo-code-input {
+  width: 100%;
+  resize: none;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Details Form</title>
+  <link rel="stylesheet" href="../static/css/details1.css">
+  <style>
+    .disabled { 
+      pointer-events: none;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+<!-- multistep form -->
+<form id="msform" method="post" action="/submmit"> 
+    <!-- progressbar -->
+    <ul id="progressbar">
+      <li class="active">Hey There!!</li>
+      <li>Let us Know More</li>
+      <li>One Last Step</li>
+    </ul>
+    <!-- fieldsets -->
+    <fieldset>
+      <h2 class="fs-title">Enter your Details</h2>
+    
+      <input type="text" name="Name" placeholder="Enter your name" required />
+      <input type="email" name="email" placeholder="Enter your Email" required />
+      <input type="tel" name="MobNo" placeholder="Enter your mobile number" required />
+      <input type="button" name="next" class="next action-button" value="Next" />
+    </fieldset>
+    <fieldset>
+      <h2 class="fs-title">Enter your Details</h2>
+     
+      <input type="number" name="RegNo" placeholder="Enter your Register no" required />
+      <select name="year" id="year" required>
+        <option value="" disabled selected>Select your year</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    
+    <select name="Branch" id="Branch" required>
+        <option value="" disabled selected>Select your Branch</option>
+        <option value="ADS">ADS</option>
+        <option value="AIML">AIML</option>
+        <option value="BME">BME</option>
+        <option value="CIVIL">CIVIL</option>
+        <option value="CSE">CSE</option>
+        <option value="CSD">CSD</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+        <option value="FT">FT</option>
+        <option value="IT">IT</option>
+        <option value="MCA">MCA</option>
+        <option value="MCT">MCT</option>
+        <option value="MECH">MECH</option>
+    </select>
+    
+    <select name="Sec" id="Sec" required>
+        <option value="" disabled selected>Select your Section</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+    </select>
+      <input type="button" name="previous" class="previous action-button" value="Previous" />
+      <input type="button" name="next" class="next action-button" value="Next" />
+    </fieldset>
+    <fieldset>
+        <h2 class="fs-title">Instruction</h2>
+        <div class="instructions-container">
+          <p>1. Follow the Code of Conduct: Respect all participants and organizers.</p>
+          <p>2. Avoid Plagiarism: Submit original work and credit sources.</p>
+          <p>3. Maintain Integrity: Do not cheat or use unauthorized tools.</p>
+          <p>4. Respect Intellectual Property: Use and share only authorized materials.</p>
+          <p>5. Adhere to Rules: Follow event-specific guidelines and deadlines.</p>
+          <p>6. Participate Honestly: Engage with integrity and truthfulness.</p>
+          <p>7. Report Issues: Inform organizers of any problems or unfair practices.</p>
+          <p>8. Communicate Professionally: Use respectful and clear language.</p>
+          <p>9. Ensure Data Security: Protect sensitive information and use secure practices.</p>
+          <p>10. Give Constructive Feedback: Provide useful and respectful feedback.</p>
+        </div>
+        
+        <div class="acknowledgement">
+          <input type="checkbox" id="acknowledge" name="acknowledge" required>
+          <label for="acknowledge">I acknowledge that I have read and agree to the instructions</label>
+        </div>
+        
+        <input type="button" name="previous" class="previous action-button" value="Previous" />
+        <!-- <a href="/continue1" id="submitButton" class="submit action-button" target="_top" aria-disabled="true" aria-label="Submit">Submit</a> -->
+      <button type="submit" id="submitButton" class="submit action-button" target="_top" aria-disabled="true" aria-label="Submit">submit</button>
+      </fieldset>
+  </form>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="../static/js/details1.js"></script>
+</body>
+</html>

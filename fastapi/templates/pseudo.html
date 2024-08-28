@@ -1,0 +1,55 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo Code Competition</title>
+  <link rel="stylesheet" href="../static/pseudo.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="title">Pseudo Code Competition</h2>
+    <div class="question-container">
+      <div class="button-container">
+        <button id="prevBtn" class="previous-button" onclick="handlePreviousQuestion()">Previous</button>
+        <span id="questionNumber" class="question-number"></span>
+        <button id="nextBtn" class="next-button" onclick="handleNextQuestion()">Next</button>
+      </div>
+      <div class="question-text" id="questionText"></div>
+      <textarea id="pseudoCodeInput" class="pseudo-code-input" rows="10"></textarea>
+      <button id="saveBtn" class="save-button" onclick="handleSaveAnswer()">Save Answer</button>
+    </div>
+  </div>
+
+  <script src="../static/pseudo.css"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo Code Competition</title>
+  <link rel="stylesheet" href="../static/css/pseudo.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="title">Pseudo Code Competition</h2>
+    <div class="question-container">
+      <div class="button-container">
+        <button id="prevBtn" class="previous-button" onclick="handlePreviousQuestion()">Previous</button>
+        <span id="questionNumber" class="question-number"></span>
+        <button id="nextBtn" class="next-button" onclick="handleNextQuestion()">Next</button>
+      </div>
+      <div class="question-text" id="questionText"></div>
+      <textarea id="pseudoCodeInput" class="pseudo-code-input" rows="10"></textarea>
+      <button id="saveBtn" class="save-button" onclick="handleSaveAnswer()">Save Answer</button>
+      <button id="submitBtn" class="submit-button" style="display: none;" onclick="handleSubmit()">submit</button>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../static/js/pseudo.js"></script>
+</body>
+</html>
+
