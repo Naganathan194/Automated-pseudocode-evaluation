@@ -83,6 +83,8 @@ We welcome contributions! Please feel free to submit a Pull Request.
 
 For any queries, please open an issue or contact our team.
 
+<br>
+
 **<h2>📜 License</h2>**
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
